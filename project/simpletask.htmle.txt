@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimpleTask</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0;">
+
+    <header style="background-color: #3498db; color: #fff; padding: 20px 0; text-align: center;">
+	<nav style="background-color: #333; color: #fff; padding: 10px; text-align: right;">
+        <a href="#features" style="color: #fff; text-decoration: none; margin: 0 10px;">Características</a>
+        <a href="#screenshots" style="color: #fff; text-decoration: none; margin: 0 10px;">Capturas</a>
+        <a href="#pricing" style="color: #fff; text-decoration: none; margin: 0 10px;">Precios</a>
+        <a href="#benefits" style="color: #fff; text-decoration: none; margin: 0 10px;">Beneficios</a>
+        <a href="#faq" style="color: #fff; text-decoration: none; margin: 0 10px;">FAQ</a>
+        <a href="#contact" style="color: #fff; text-decoration: none; margin: 0 10px;">Contacto</a>
+    </nav>
+	<div class="logo" style="display: flex; align-items: center;">
+	    <img src="logo.png" alt="SimpleTask Logo" style="max-width: 100%; max-height: 100%; margin-right: 10px;">
+	</div>
+        <div class="cta" style="text-align: center; margin-top: 40px;">
+            <h2 style="font-size: 28px;">Organize Your Tasks Easier Than Ever.</h2>
+            <p style="font-size: 18px; margin: 10px 0;">Improve your productivity with SimpleTask!</p>
+            <a href="#signup" class="cta-button" style="display: inline-block; padding: 15px 30px; background-color: #e74c3c; color: #fff; text-decoration: none; font-weight: bold; border-radius: 5px;">Sign Up Here</a>
+        </div>
+    </header>
+
+    <!-- Sección de Características Destacadas -->
+    <section id="features" style="background-color: #FFD700; padding: 40px 0; text-align: center;">
+        <h3 style="font-size: 24px;">Highlighted Features</h3>
+        <div class="feature" style="margin: 20px; padding: 20px; background-color: #fff; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);">
+            <h4 style="font-size: 20px; margin: 10px 0;">Task Organization</h4>
+            <p style="font-size: 16px;">Efficiently organize your tasks and keep track of your activities.</p>
+        </div>
+        <div class="feature" style="margin: 20px; padding: 20px; background-color: #fff; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);">
+            <h4 style="font-size: 20px; margin: 10px 0;">Reminders</h4>
+            <p style="font-size: 16px;">Set reminders to never forget your important tasks and deadlines.</p>
+        </div>
+        <div class="feature" style="margin: 20px; padding: 20px; background-color: #fff; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);">
+            <h4 style="font-size: 20px; margin: 10px 0;">Team Collaboration</h4>
+            <p style="font-size: 16px;">Work as a team and share tasks with colleagues, friends, and family efficiently.</p>
+        </div>
+    </section>
+
+    <!-- Sección de Capturas de Pantalla  -->
+    <section id="screenshots" style="text-align: center;">
+        <h3 style="font-size: 24px;">Screenshots</h3>
+        <img src="screenshot1.jpg" alt="Screenshot 1" style="max-width: 100%;">
+        <img src="screenshot2.jpg" alt="Screenshot 2" style="max-width: 30%;">
+    </section>
+
+    <!-- Sección de Beneficios -->
+    <section id="benefits" style="background-color: #90EE90; padding: 40px 0; text-align: center;">
+        <h3 style="font-size: 24px;">Benefits</h3>
+        <div class="benefit" style="margin: 20px; padding: 20px; background-color: #fff; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);">
+            <h4 style="font-size: 20px; margin: 10px 0;">Improved Productivity</h4>
+            <p style="font-size: 16px;">SimpleTask helps you stay organized and efficient in your work and daily life.</p>
+        </div>
+        <div class="benefit" style="margin: 20px; padding: 20px; background-color: #fff; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);">
+            <h4 style="font-size: 20px; margin: 10px 0;">Access from Anywhere</h4>
+            <p style="font-size: 16px;">You can access your tasks and lists from any device, anywhere, and at any time.</p>
+        </div>
+        <div class="benefit" style="margin: 20px; padding: 20px; background-color: #fff; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);">
+            <h4 style="font-size: 20px; margin: 10px 0;">Team Collaboration</h4>
+            <p style="font-size: 16px;">Work as a team and efficiently share tasks with colleagues, friends, and family.</p>
+         </div>
+    </section>
+
+    <!-- Sección de Precios y Planes -->
+    <section id="pricing" style="background-color: #f2f2f2; padding: 40px 0; text-align: center;">
+        <h3 style="font-size: 24px;">Pricing and Plans</h3>
+        <div class="plan" style="margin: 20px; padding: 20px; background-color: #fff; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);">
+            <h4 style="font-size: 20px; margin: 10px 0;">Basic Plan</h4>
+            <p style="font-size: 16px;">Perfect for individuals who want to get started with SimpleTask.</p>
+            <p style="font-size: 20px; color: #e74c3c; font-weight: bold;">$9.99/month</p>
+            <a href="#signup" class="cta-button" style="display: inline-block; padding: 10px 20px; background-color: #e74c3c; color: #fff; text-decoration: none; font-weight: bold; border-radius: 5px;">Sign Up</a>
+        </div>
+        <div class="plan" style="margin: 20px; padding: 20px; background-color: #fff; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);">
+            <h4 style="font-size: 20px; margin: 10px 0;">Pro Plan</h4>
+            <p style="font-size: 16px;">Designed for professionals and small teams with advanced features.</p>
+            <p style="font-size: 20px; color: #e74c3c; font-weight: bold;">$19.99/month</p>
+            <a href="#signup" class="cta-button" style="display: inline-block; padding: 10px 20px; background-color: #e74c3c; color: #fff; text-decoration: none; font-weight: bold; border-radius: 5px;">Sign Up</a>
+        </div>
+        <div class="plan" style="margin: 20px; padding: 20px; background-color: #fff; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);">
+            <h4 style="font-size: 20px; margin: 10px 0;">Enterprise Plan</h4>
+            <p style="font-size: 16px;">Tailored for large organizations with comprehensive features and support.</p>
+            <p style="font-size: 20px; color: #e74c3c; font-weight: bold;">Contact Us</p>
+            <a href="#contact" class="cta-button" style="display: inline-block; padding: 10px 20px; background-color: #e74c3c; color: #fff; text-decoration: none; font-weight: bold; border-radius: 5px;">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- Sección de Preguntas Frecuentes (FAQ) -->
+    <section id="faq" style="background-color: #3498db; padding: 40px 0; text-align: center;">
+        <h3 style="font-size: 24px;">Frequently Asked Questions (FAQ)</h3>
+        <div class="faq-item" style="margin: 20px; padding: 20px; background-color: #fff; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);">
+            <h4 style="font-size: 20px; margin: 10px 0;">How do I get started with SimpleTask?</h4>
+            <p style="font-size: 16px;">Getting started with SimpleTask is easy. Just sign up for an account, and you'll be guided through the setup process.</p>
+        </div>
+        <div class="faq-item" style="margin: 20px; padding: 20px; background-color: #fff; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);">
+            <h4 style="font-size: 20px; margin: 10px 0;">Can I use SimpleTask on my mobile device?</h4>
+            <p style="font-size: 16px;">Yes, SimpleTask is available on both iOS and Android devices. You can download the app from the respective app stores.</p>
+        </div>
+        <div class="faq-item" style="margin: 20px; padding: 20px; background-color: #fff; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);">
+            <h4 style="font-size: 20px; margin: 10px 0;">Is my data secure with SimpleTask?</h4>
+            <p style="font-size: 16px;">Yes, we take data security seriously. Your data is encrypted and stored securely, and we follow best practices to protect your information.</p>
+        </div>
+        <div class="faq-item" style="margin: 20px; padding: 20px; background-color: #fff; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);">
+            <h4 style="font-size: 20px; margin: 10px 0;">Do you offer customer support?</h4>
+            <p style="font-size: 16px;">Yes, we have a dedicated customer support team ready to assist you. You can reach out to us via email or our support portal.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" style="background-color: #333; color: #fff; padding: 20px 0; text-align: center;">
+        <div class="footer-content">
+            <p>Contact: contact@simpletask.com</p>
+            <p>Derechos de autor &copy; 2023 SimpleTask</p>
+            <div class="footer-links">
+                <a href="#privacy" style="color: #fff; text-decoration: none; margin: 0 10px;">Política de Privacidad</a>
+                <a href="#terms" style="color: #fff; text-decoration: none; margin: 0 10px;">Términos de Servicio</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
