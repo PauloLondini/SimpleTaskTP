@@ -1,0 +1,294 @@
+/* styles.css */
+.cta-container {
+    margin-top: 40px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(42, 44, 165);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+
+.cta-container h2 {
+    font-family: 'Kanit', sans-serif;
+}
+
+
+.cta-container a {
+    font-family: 'Kanit', sans-serif;
+}
+
+
+.section-title {
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    padding-bottom: 20px; 
+}
+
+#features {
+    margin: 20px;
+    padding: 20px;
+    background-color: brown;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+
+#features h4 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+#features p {
+    font-size: 16px;
+}
+
+
+.card {
+        transition: all 0.3s ease-in-out;
+    }
+
+.card:hover {
+        background-color: black;
+    }
+
+.card:hover h4, 
+.card:hover p, 
+ .card:hover a {
+        color: white;
+    }
+
+
+
+.screenshot-section {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.screenshot-image {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.with-shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1); 
+}
+
+#screenshots{
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(42, 44, 165);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+
+/* Estilos para la superposición y difuminado */
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.overlay-text {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.image-container:hover .image-overlay {
+    opacity: 1;
+}
+
+
+
+#benefits {
+    margin: 20px;
+    padding: 20px;
+    background-color: #176917;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.benefit-title {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.benefit-description {
+    font-size: 16px;
+}
+
+/* Estilos para la sección de precios */
+.pricing-section {
+    background-color: #f2f2f2;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 24px;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.plan {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.plan-title {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.plan-description {
+    font-size: 16px;
+}
+
+.plan-price {
+    font-size: 20px;
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+#pricing {
+    width: 70%; 
+    margin: 30px auto; 
+    padding: 30px;
+    background-color: rgb(99, 50, 92);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+
+.carousel-control-prev, 
+.carousel-control-next {
+    font-size: 1.5rem; 
+}
+
+
+@media (max-width: 767px) {
+  
+    .carousel-control-prev, 
+    .carousel-control-next {
+        opacity: 1;
+        width: 5%;
+        height: 90%;
+        background: rgba(0, 0, 0, 0.5);
+    }
+    
+    .carousel-control-prev-icon, 
+    .carousel-control-next-icon {
+        filter: invert(1); 
+    }
+
+   
+    #pricing .carousel-control-prev {
+        left: 0;
+        border-radius: 0 50% 50% 0;
+    }
+    
+    #pricing .carousel-control-next {
+        right: 0;
+        border-radius: 50% 0 0 50%;
+    }
+}
+
+
+#faq {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(156, 71, 22);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.faq-item {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.faq-item h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.faq-item p {
+    font-size: 16px;
+    color: #333;
+}
+
+#contact {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.parallax {
+    background-image: url('fondo.jpg'); /* Reemplaza 'ruta_de_tu_imagen.jpg' con la ruta de tu imagen de fondo */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#features h3{
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#benefits h3{
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#faq h3{
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
